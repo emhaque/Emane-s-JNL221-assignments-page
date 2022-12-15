@@ -1,5 +1,62 @@
-/*This is the CSS page for our final template.*/
+*This is the CSS page for our final template.*/
+@charset "utf-8";
+/* CSS Document */
 
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    color: black; 
+    font-size: 10pt; 
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #E2E2E2;
+}
+
+/* ---Section Dividers --------------------------------------------------------------*/
+div.mainContainer{
+    position: relative; 
+    height: auto; 
+    width: 68em;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+div.header{
+    padding: 0; 
+    margin: 0;
+}
+
+div.leftSidebar{
+    float: left;
+    width: 22%; 
+    height: 40em;
+    margin: 0;
+}
+
+div.mainContent{
+    margin-left: 25%;
+}
+
+div.footer{
+    clear: both;
+    padding-bottom: 0em; 
+    margin: 0;
+}
+
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+   * html div.leftSidebar { margin-right: 5px; }
+   * html div.mainContent {height: 1%; margin-left: 0;}
+/* End hide from IE5/mac */
+div.mainContainer{
+    height: auto; 
+    width: 68em;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+    padding: 0;
+}
 .header {
 	height: auto;
 	font-weight: bold;
@@ -7,16 +64,13 @@
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	margin-top: 0px;
+	font-family: 'Georgia', serif
+	margin-top: 0x;
 }
 #dek {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
-	font-family: 'Lato', sans-serif;
-font-family: 'Noto Serif NP Hmong', serif;
-font-family: 'Nunito Sans', sans-serif;
 }
 #image {
 	float: right;
