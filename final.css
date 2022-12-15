@@ -1,0 +1,94 @@
+*This is the CSS page for our final template.*/
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    color: black; 
+    font-size: 10pt; 
+    font-family: "Lato", sans-serif;
+    background-color: #E2E2E2;
+}
+
+div.mainContainer{
+    height: auto; 
+    width: 68em;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+    padding: 0;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Georgia', serif
+	margin-top: 0x;
+}
+#dek {
+	font-style: italic;
+	font-size: 40px;
+	font-family: 'Georgia', serif;
+}
+#image {
+	float: right;
+}
+img {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+figcaption {
+	color: darkgray;
+	text-align: center;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+h4 {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+div#list {
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+	border: 1px solid black;
+	padding: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+}
+h3 {
+	font-size: 30px;
+}
+.footer p {
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px)
+{
+	p#with-element
+    {
+        display: block; 
+        float: none;
+    }
+	#image {
+		display: block; 
+		float: none;
+		margin-left: 10%;
+    }
+    div#list {
+    	display: block;
+    	float: none;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	padding: 6px;
+    }
+}
